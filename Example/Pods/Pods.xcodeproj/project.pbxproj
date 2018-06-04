@@ -1,0 +1,750 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		23C6DA408F0E84D1E96DB0BCEBDD277D /* SplittingButton-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 23B35027566CE8F91BA0CD5CBB8C14BC /* SplittingButton-dummy.m */; };
+		3FD1D4D9373CBCACE88E21F30DA33C04 /* SplittingButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA3DDD44DD3BCC447E473A29A2943F3A /* SplittingButton.swift */; };
+		4FA463C4BFD614C2BF397ABE2B04C6D2 /* Pods-SplittingButton_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8D280645C59881E8B8E99734725F9F62 /* Pods-SplittingButton_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5BEA946609D09C6F00F06FD51CCE5A2B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		72A51F957502B1DC46B044EB119C3F03 /* SplittingButton-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4E60D922C5C708FF6DA2415B1AAF4142 /* SplittingButton-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		73E0EDFE19411A039F2B151BDB373058 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		7A1C4AA1F0D94928997B6FB38BAB2894 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		7C404C3916D7CC501BD010C06514B910 /* Pods-SplittingButton_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FF6CCA3F6F6C75FF00328FCE4CF1BE08 /* Pods-SplittingButton_Example-dummy.m */; };
+		7D9573228608DCF3872B565D3562838C /* Pods-SplittingButton_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B54012DA67DD2A729D754ED90E9DD79 /* Pods-SplittingButton_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8825BDF0A013FF9EF081C526DF9031D0 /* Pods-SplittingButton_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3494DC40E0CE9C8E45EB12D5ECC71ED9 /* Pods-SplittingButton_Tests-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A55318B699EDE1EC95DF574C3A693712 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 67ADB4E2BE8B4283F21210AE6CD2FD6D;
+			remoteInfo = "Pods-SplittingButton_Example";
+		};
+		CA6840AE871D20D7CE53DDA308DB53A6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ECCF42707E7FE7FDEEA9D6E709FC3B1A;
+			remoteInfo = SplittingButton;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		06F71C1F9109D0C1EFA9555165B37AFB /* Pods-SplittingButton_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SplittingButton_Example.modulemap"; sourceTree = "<group>"; };
+		0D427284626C328F40285B128E13CEEE /* Pods-SplittingButton_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SplittingButton_Example.release.xcconfig"; sourceTree = "<group>"; };
+		15AFE05DCEE6CE2C1AC999FA32F37256 /* Pods-SplittingButton_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SplittingButton_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		23B35027566CE8F91BA0CD5CBB8C14BC /* SplittingButton-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SplittingButton-dummy.m"; sourceTree = "<group>"; };
+		3494DC40E0CE9C8E45EB12D5ECC71ED9 /* Pods-SplittingButton_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SplittingButton_Tests-dummy.m"; sourceTree = "<group>"; };
+		3802C4ED4CBA02D3FEE25E4DA28C8609 /* Pods-SplittingButton_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SplittingButton_Example-resources.sh"; sourceTree = "<group>"; };
+		4878E2A050DB4FCC12C9A6C0397E0812 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4E60D922C5C708FF6DA2415B1AAF4142 /* SplittingButton-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SplittingButton-umbrella.h"; sourceTree = "<group>"; };
+		4FE9E189BDF624C4580075E449BF0BCD /* Pods-SplittingButton_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SplittingButton_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		55F3F9A260325B8A545C17F1F91B4E0B /* Pods-SplittingButton_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SplittingButton_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		5B9A7DA19FF126E27E597AF7853A728D /* Pods-SplittingButton_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SplittingButton_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		5DF6FD9209FB1B8699B171A38590C1CB /* SplittingButton-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SplittingButton-prefix.pch"; sourceTree = "<group>"; };
+		6229744DC1F8A88FE3DEA5EA142DF835 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		6B54012DA67DD2A729D754ED90E9DD79 /* Pods-SplittingButton_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SplittingButton_Example-umbrella.h"; sourceTree = "<group>"; };
+		78D4B3EAD657FD0C39E25EF3C7BB836E /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		8D280645C59881E8B8E99734725F9F62 /* Pods-SplittingButton_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SplittingButton_Tests-umbrella.h"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		943FCEA09438131E9402E40B869661D6 /* Pods_SplittingButton_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SplittingButton_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		96D801EAED49955119212D376F6616C6 /* SplittingButton.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = SplittingButton.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9B48A231AC65303A31242DE6FEF44E7F /* Pods-SplittingButton_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SplittingButton_Example-frameworks.sh"; sourceTree = "<group>"; };
+		9C50256B994C82DE0DD04D6C180F5096 /* Pods-SplittingButton_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SplittingButton_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		9C9103751E51FD1EEAE501D055E0F489 /* SplittingButton.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SplittingButton.modulemap; sourceTree = "<group>"; };
+		A0750CFDACCC6AEF79B96B050EE2D998 /* Pods-SplittingButton_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SplittingButton_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		A77BEB1ED3707AA5B14F95B84307EC31 /* Pods-SplittingButton_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SplittingButton_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		B4EA2B7484D0CE0E2E59A545138D57D3 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DA3DDD44DD3BCC447E473A29A2943F3A /* SplittingButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SplittingButton.swift; path = SplittingButton/Classes/SplittingButton.swift; sourceTree = "<group>"; };
+		DAA92837E1F9F4B81B8E2292416F5E99 /* Pods-SplittingButton_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SplittingButton_Tests-resources.sh"; sourceTree = "<group>"; };
+		E180B88E6189EA0A83AF1F8D1894CBF9 /* Pods-SplittingButton_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SplittingButton_Tests.modulemap"; sourceTree = "<group>"; };
+		EA46CD552B0A597A68A38A883135C937 /* Pods_SplittingButton_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SplittingButton_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE70130BE166B9A7651DDBA2E2B1BD08 /* SplittingButton.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SplittingButton.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F1486844A3C62D2DC4D6C22C89B51B25 /* SplittingButton.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SplittingButton.xcconfig; sourceTree = "<group>"; };
+		F61A4CA6C79EB4CDF8F1185A92E339B5 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		FC180CEF38348AAA9E0D889CF5DB30BD /* Pods-SplittingButton_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SplittingButton_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		FF6CCA3F6F6C75FF00328FCE4CF1BE08 /* Pods-SplittingButton_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SplittingButton_Example-dummy.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0177EE4956FB15B8B4D81B830D52687A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A1C4AA1F0D94928997B6FB38BAB2894 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6061DDF385855BB27CDAF105D56D4718 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5BEA946609D09C6F00F06FD51CCE5A2B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6D43E31E3958BECFF4B6A296F0AC6AE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				73E0EDFE19411A039F2B151BDB373058 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		165C16B64A46424C43F210294EDE98F4 /* SplittingButton */ = {
+			isa = PBXGroup;
+			children = (
+				DA3DDD44DD3BCC447E473A29A2943F3A /* SplittingButton.swift */,
+				B5224EBCD228953023597E573C2595A2 /* Pod */,
+				7498D3908EBE06B433F2EA3F5AEEA633 /* Support Files */,
+			);
+			name = SplittingButton;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		273B4A7F168A90455F80324DEC6A521C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				943FCEA09438131E9402E40B869661D6 /* Pods_SplittingButton_Example.framework */,
+				EA46CD552B0A597A68A38A883135C937 /* Pods_SplittingButton_Tests.framework */,
+				EE70130BE166B9A7651DDBA2E2B1BD08 /* SplittingButton.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2A43D590112D8FF41946AB675A9E57D7 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				DF30EC95FE995C49C6C4E89DB89DEC5E /* Pods-SplittingButton_Example */,
+				7AC742E2A4F24F73F4EDE8EB39CB5220 /* Pods-SplittingButton_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		6DD1D2E6947905A992D2C7C616FCBF31 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				165C16B64A46424C43F210294EDE98F4 /* SplittingButton */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		7498D3908EBE06B433F2EA3F5AEEA633 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B4EA2B7484D0CE0E2E59A545138D57D3 /* Info.plist */,
+				9C9103751E51FD1EEAE501D055E0F489 /* SplittingButton.modulemap */,
+				F1486844A3C62D2DC4D6C22C89B51B25 /* SplittingButton.xcconfig */,
+				23B35027566CE8F91BA0CD5CBB8C14BC /* SplittingButton-dummy.m */,
+				5DF6FD9209FB1B8699B171A38590C1CB /* SplittingButton-prefix.pch */,
+				4E60D922C5C708FF6DA2415B1AAF4142 /* SplittingButton-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/SplittingButton";
+			sourceTree = "<group>";
+		};
+		7AC742E2A4F24F73F4EDE8EB39CB5220 /* Pods-SplittingButton_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				6229744DC1F8A88FE3DEA5EA142DF835 /* Info.plist */,
+				E180B88E6189EA0A83AF1F8D1894CBF9 /* Pods-SplittingButton_Tests.modulemap */,
+				15AFE05DCEE6CE2C1AC999FA32F37256 /* Pods-SplittingButton_Tests-acknowledgements.markdown */,
+				9C50256B994C82DE0DD04D6C180F5096 /* Pods-SplittingButton_Tests-acknowledgements.plist */,
+				3494DC40E0CE9C8E45EB12D5ECC71ED9 /* Pods-SplittingButton_Tests-dummy.m */,
+				FC180CEF38348AAA9E0D889CF5DB30BD /* Pods-SplittingButton_Tests-frameworks.sh */,
+				DAA92837E1F9F4B81B8E2292416F5E99 /* Pods-SplittingButton_Tests-resources.sh */,
+				8D280645C59881E8B8E99734725F9F62 /* Pods-SplittingButton_Tests-umbrella.h */,
+				55F3F9A260325B8A545C17F1F91B4E0B /* Pods-SplittingButton_Tests.debug.xcconfig */,
+				4FE9E189BDF624C4580075E449BF0BCD /* Pods-SplittingButton_Tests.release.xcconfig */,
+			);
+			name = "Pods-SplittingButton_Tests";
+			path = "Target Support Files/Pods-SplittingButton_Tests";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				6DD1D2E6947905A992D2C7C616FCBF31 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				273B4A7F168A90455F80324DEC6A521C /* Products */,
+				2A43D590112D8FF41946AB675A9E57D7 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		B5224EBCD228953023597E573C2595A2 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				F61A4CA6C79EB4CDF8F1185A92E339B5 /* LICENSE */,
+				78D4B3EAD657FD0C39E25EF3C7BB836E /* README.md */,
+				96D801EAED49955119212D376F6616C6 /* SplittingButton.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		DF30EC95FE995C49C6C4E89DB89DEC5E /* Pods-SplittingButton_Example */ = {
+			isa = PBXGroup;
+			children = (
+				4878E2A050DB4FCC12C9A6C0397E0812 /* Info.plist */,
+				06F71C1F9109D0C1EFA9555165B37AFB /* Pods-SplittingButton_Example.modulemap */,
+				A77BEB1ED3707AA5B14F95B84307EC31 /* Pods-SplittingButton_Example-acknowledgements.markdown */,
+				5B9A7DA19FF126E27E597AF7853A728D /* Pods-SplittingButton_Example-acknowledgements.plist */,
+				FF6CCA3F6F6C75FF00328FCE4CF1BE08 /* Pods-SplittingButton_Example-dummy.m */,
+				9B48A231AC65303A31242DE6FEF44E7F /* Pods-SplittingButton_Example-frameworks.sh */,
+				3802C4ED4CBA02D3FEE25E4DA28C8609 /* Pods-SplittingButton_Example-resources.sh */,
+				6B54012DA67DD2A729D754ED90E9DD79 /* Pods-SplittingButton_Example-umbrella.h */,
+				A0750CFDACCC6AEF79B96B050EE2D998 /* Pods-SplittingButton_Example.debug.xcconfig */,
+				0D427284626C328F40285B128E13CEEE /* Pods-SplittingButton_Example.release.xcconfig */,
+			);
+			name = "Pods-SplittingButton_Example";
+			path = "Target Support Files/Pods-SplittingButton_Example";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		6B758E93650FC97A573E0E372BF0D67B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72A51F957502B1DC46B044EB119C3F03 /* SplittingButton-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA19D993D887ABC28E5A2AC26895D4B1 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4FA463C4BFD614C2BF397ABE2B04C6D2 /* Pods-SplittingButton_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD4E67A59E68CE364C5C66BAEDDEFC1B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D9573228608DCF3872B565D3562838C /* Pods-SplittingButton_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		2F4273E567F7673EB0D256B90941EEC8 /* Pods-SplittingButton_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7F18F5824CEA60237F586601F412AEB6 /* Build configuration list for PBXNativeTarget "Pods-SplittingButton_Tests" */;
+			buildPhases = (
+				3DE944D17039CC625F9B7F218CDB5B3C /* Sources */,
+				0177EE4956FB15B8B4D81B830D52687A /* Frameworks */,
+				AA19D993D887ABC28E5A2AC26895D4B1 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8A9E9F847D72A3149F1437DE58636C8D /* PBXTargetDependency */,
+			);
+			name = "Pods-SplittingButton_Tests";
+			productName = "Pods-SplittingButton_Tests";
+			productReference = EA46CD552B0A597A68A38A883135C937 /* Pods_SplittingButton_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		67ADB4E2BE8B4283F21210AE6CD2FD6D /* Pods-SplittingButton_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3EF693605F057C296D151F23014D4A1C /* Build configuration list for PBXNativeTarget "Pods-SplittingButton_Example" */;
+			buildPhases = (
+				1309CD5097917D42279448E4B0B1D397 /* Sources */,
+				F6D43E31E3958BECFF4B6A296F0AC6AE /* Frameworks */,
+				CD4E67A59E68CE364C5C66BAEDDEFC1B /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C7DBF5AB9CC5E10380F725F4D887C041 /* PBXTargetDependency */,
+			);
+			name = "Pods-SplittingButton_Example";
+			productName = "Pods-SplittingButton_Example";
+			productReference = 943FCEA09438131E9402E40B869661D6 /* Pods_SplittingButton_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		ECCF42707E7FE7FDEEA9D6E709FC3B1A /* SplittingButton */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C933702991A8300C58447B57B93FBE04 /* Build configuration list for PBXNativeTarget "SplittingButton" */;
+			buildPhases = (
+				89DC69A92BD45761A84980A812A58DA8 /* Sources */,
+				6061DDF385855BB27CDAF105D56D4718 /* Frameworks */,
+				6B758E93650FC97A573E0E372BF0D67B /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SplittingButton;
+			productName = SplittingButton;
+			productReference = EE70130BE166B9A7651DDBA2E2B1BD08 /* SplittingButton.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 273B4A7F168A90455F80324DEC6A521C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				67ADB4E2BE8B4283F21210AE6CD2FD6D /* Pods-SplittingButton_Example */,
+				2F4273E567F7673EB0D256B90941EEC8 /* Pods-SplittingButton_Tests */,
+				ECCF42707E7FE7FDEEA9D6E709FC3B1A /* SplittingButton */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1309CD5097917D42279448E4B0B1D397 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7C404C3916D7CC501BD010C06514B910 /* Pods-SplittingButton_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3DE944D17039CC625F9B7F218CDB5B3C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8825BDF0A013FF9EF081C526DF9031D0 /* Pods-SplittingButton_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		89DC69A92BD45761A84980A812A58DA8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FD1D4D9373CBCACE88E21F30DA33C04 /* SplittingButton.swift in Sources */,
+				23C6DA408F0E84D1E96DB0BCEBDD277D /* SplittingButton-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8A9E9F847D72A3149F1437DE58636C8D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-SplittingButton_Example";
+			target = 67ADB4E2BE8B4283F21210AE6CD2FD6D /* Pods-SplittingButton_Example */;
+			targetProxy = A55318B699EDE1EC95DF574C3A693712 /* PBXContainerItemProxy */;
+		};
+		C7DBF5AB9CC5E10380F725F4D887C041 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SplittingButton;
+			target = ECCF42707E7FE7FDEEA9D6E709FC3B1A /* SplittingButton */;
+			targetProxy = CA6840AE871D20D7CE53DDA308DB53A6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		203BCC5BE46050DB5C736552435110DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4FE9E189BDF624C4580075E449BF0BCD /* Pods-SplittingButton_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SplittingButton_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SplittingButton_Tests/Pods-SplittingButton_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8B33C5230DE4A9DFA6D8F46505DD7AF7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		A58FAA746026C72D3CE20E03C32D4D9C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0D427284626C328F40285B128E13CEEE /* Pods-SplittingButton_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SplittingButton_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SplittingButton_Example/Pods-SplittingButton_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B1FF49B7160384E429A3CECB37F51144 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 55F3F9A260325B8A545C17F1F91B4E0B /* Pods-SplittingButton_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SplittingButton_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SplittingButton_Tests/Pods-SplittingButton_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B42B54097A876E8A982CBF5DAA91B1AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		BDC4EFC6BA25FDEDE9BB7E85D73E019C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F1486844A3C62D2DC4D6C22C89B51B25 /* SplittingButton.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SplittingButton/SplittingButton-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SplittingButton/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SplittingButton/SplittingButton.modulemap";
+				PRODUCT_MODULE_NAME = SplittingButton;
+				PRODUCT_NAME = SplittingButton;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C2FC4BF082F9DEF0DDCAEB81CEC13B10 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A0750CFDACCC6AEF79B96B050EE2D998 /* Pods-SplittingButton_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SplittingButton_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SplittingButton_Example/Pods-SplittingButton_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		CFC22EAE26DDA3348B6A4A843CE68C04 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F1486844A3C62D2DC4D6C22C89B51B25 /* SplittingButton.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SplittingButton/SplittingButton-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SplittingButton/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SplittingButton/SplittingButton.modulemap";
+				PRODUCT_MODULE_NAME = SplittingButton;
+				PRODUCT_NAME = SplittingButton;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B33C5230DE4A9DFA6D8F46505DD7AF7 /* Debug */,
+				B42B54097A876E8A982CBF5DAA91B1AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3EF693605F057C296D151F23014D4A1C /* Build configuration list for PBXNativeTarget "Pods-SplittingButton_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C2FC4BF082F9DEF0DDCAEB81CEC13B10 /* Debug */,
+				A58FAA746026C72D3CE20E03C32D4D9C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7F18F5824CEA60237F586601F412AEB6 /* Build configuration list for PBXNativeTarget "Pods-SplittingButton_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B1FF49B7160384E429A3CECB37F51144 /* Debug */,
+				203BCC5BE46050DB5C736552435110DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C933702991A8300C58447B57B93FBE04 /* Build configuration list for PBXNativeTarget "SplittingButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFC22EAE26DDA3348B6A4A843CE68C04 /* Debug */,
+				BDC4EFC6BA25FDEDE9BB7E85D73E019C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

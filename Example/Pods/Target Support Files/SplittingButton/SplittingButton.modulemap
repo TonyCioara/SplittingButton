@@ -1,0 +1,6 @@
+framework module SplittingButton {
+  umbrella header "SplittingButton-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,16 @@
+PODS:
+  - SplittingButton (0.1.0)
+
+DEPENDENCIES:
+  - SplittingButton (from `../`)
+
+EXTERNAL SOURCES:
+  SplittingButton:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  SplittingButton: c35392f864e007ea1f8bdcef5bd72a11985edfd5
+
+PODFILE CHECKSUM: a4912ebeec878d9b29e7dc759211a3717129d478
+
+COCOAPODS: 1.5.0

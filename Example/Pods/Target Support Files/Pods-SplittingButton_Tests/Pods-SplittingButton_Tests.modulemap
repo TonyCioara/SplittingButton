@@ -1,0 +1,6 @@
+framework module Pods_SplittingButton_Tests {
+  umbrella header "Pods-SplittingButton_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}
