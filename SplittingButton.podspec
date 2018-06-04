@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'SplittingButton'
   s.version          = '0.1.0'
-  s.summary          = 'The SplittingButton is a UIButton that will display multiple options when clicked. It provides a lot of flexibility when it comes to display options.'
+  s.summary          = 'The SplittingButton is a subclass of UIButton that will display multiple options when clicked. It provides a lot of flexibility when it comes to display options.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -17,9 +17,7 @@ Pod::Spec.new do |s|
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
-  s.description      = <<-DESC
-TODO: Add long description of the pod here.
-                       DESC
+s.description      = 'SplittingButton is a subclass of subclass of UIButton. It generates multiple sub-buttons and a cancel button when the SplittingButton is clicked. It may be used for features such as a share button. When clicked it will display multiple options. The user may select one of the options or may choose to cancel, in which case everything returns to normal.'
 
   s.homepage         = 'https://github.com/TonyCioara/SplittingButton'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'

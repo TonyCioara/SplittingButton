@@ -209,6 +209,7 @@ class SplittingButton: UIButton {
         } else {
             button.setBackgroundImage(#imageLiteral(resourceName: "cancelButton"), for: .normal)
             button.frame = self.frame
+            self.cancelButton = button
         }
         
         button.addTarget(self, action: #selector(cancelButtonPressed(sender:)), for: .touchDown)
@@ -218,6 +219,12 @@ class SplittingButton: UIButton {
         UIView.animate(withDuration: 0.75) {
             button.alpha = 1.0
         }
+    }
+    
+    /* This method has the same functionality as pressing the cancel button.  */
+    public func cancel() {
+        guard let button = self.cancelButton else {return}
+        self.cancelButtonPressed(sender: button)
     }
     
     /*  When the cancel button is pressed animate and remove all the sub-buttons.
