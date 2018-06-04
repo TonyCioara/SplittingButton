@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'SplittingButton_Example' do
+  pod 'SplittingButton', :path => '../'
+
+  target 'SplittingButton_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
