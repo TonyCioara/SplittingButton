@@ -44,7 +44,7 @@
 		607FACE51AFB9204008FA782 /* SplittingButton_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SplittingButton_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		A210C8BA742C97871EA3129D /* SplittingButton.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = SplittingButton.podspec; path = ../SplittingButton.podspec; sourceTree = "<group>"; };
+		A210C8BA742C97871EA3129D /* SplittingButton.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = SplittingButton.podspec; path = ../SplittingButton.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A9D7F7C36B9B10C7DFC6F877 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		ADB852AF6D479BB408D500AF /* Pods-SplittingButton_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SplittingButton_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SplittingButton_Tests/Pods-SplittingButton_Tests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
