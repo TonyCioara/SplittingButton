@@ -1,5 +1,9 @@
 # SplittingButton
 
+
+![splittingbuttongif](https://user-images.githubusercontent.com/29664539/40952425-127815c4-6830-11e8-85d3-5eaef5d8b6f4.gif)
+
+
 [![CI Status](https://img.shields.io/travis/TonyCioara/SplittingButton.svg?style=flat)](https://travis-ci.org/TonyCioara/SplittingButton)
 [![Version](https://img.shields.io/cocoapods/v/SplittingButton.svg?style=flat)](https://cocoapods.org/pods/SplittingButton)
 [![License](https://img.shields.io/cocoapods/l/SplittingButton.svg?style=flat)](https://cocoapods.org/pods/SplittingButton)
