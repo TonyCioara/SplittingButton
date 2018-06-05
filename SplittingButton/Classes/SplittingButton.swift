@@ -9,7 +9,7 @@
 import UIKit
 
 /*  The direction will be used when displaying the buttons in a direction or in a list.  */
-enum Direction {
+public enum Direction {
     case right
     case left
     case up
@@ -17,7 +17,7 @@ enum Direction {
 }
 
 /*  Display mode is used to figure out which configuration your buttons will be displayed in.    */
-enum DisplayMode {
+public enum DisplayMode {
     case circle
     case list
     case direction
@@ -25,14 +25,14 @@ enum DisplayMode {
 
 /*  The DataSource is responsible for creating all the sub-buttons displayed by the SplittingButton.
  Your View Controller must inherit from SplittingButtonDataSource.   */
-protocol SplittingButtonDataSource {
+public protocol SplittingButtonDataSource {
     func buttonForIndexAt(index: Int) -> UIButton
     func numberOfButtons() -> Int
 }
 
 /*  The Delegate is responsible what happens when you click any of the sub-buttons.
  Your View Controller must inherit from SplittingButtonDelegate.   */
-protocol SplittingButtonDelegate {
+public protocol SplittingButtonDelegate {
     func didTapButtonAt(button: UIButton, index: Int)
 }
 
@@ -43,7 +43,7 @@ protocol SplittingButtonDelegate {
  Your view controller must inherit from SplittingButtonDataSource and SplittingButtonDelegate.
  The button's delegate and dataSource must be set to the View Controller.
  Check the ButtonsViewController for sample code.   */
-class SplittingButton: UIButton {
+public class SplittingButton: UIButton {
     
     private var buttonArray: [UIButton] = []
     private var darkView = UIView()
@@ -121,14 +121,14 @@ class SplittingButton: UIButton {
     
     /*  This convenience init is used for displaying the buttons in a circle around the SplittingButton.
      The first button will be placed above the SplittingButton, continuing to display clockwise.    */
-    convenience init(animateInCircleWithFrame: CGRect, target: UIViewController) {
+    public convenience init(animateInCircleWithFrame: CGRect, target: UIViewController) {
         self.init(frame: animateInCircleWithFrame, target: target)
         
         self.displayMode = DisplayMode.circle
     }
     
     /*  This convenience init is used for displaying the buttons lined up in a direction, starting from the SplittingButton.    */
-    convenience init(animateInDirectionWithFrame: CGRect, target: UIViewController, direction: Direction) {
+    public convenience init(animateInDirectionWithFrame: CGRect, target: UIViewController, direction: Direction) {
         self.init(frame: animateInDirectionWithFrame, target: target)
         
         self.displayMode = DisplayMode.direction
@@ -137,7 +137,7 @@ class SplittingButton: UIButton {
     
     /*  This convenience init is used for displaying the buttons in a list.
      You may cutomize it by selecting the direction and number of collums.   */
-    convenience init(animateInListWithFrame: CGRect, target: UIViewController, direction: Direction, collums: Int) {
+    public convenience init(animateInListWithFrame: CGRect, target: UIViewController, direction: Direction, collums: Int) {
         self.init(frame: animateInListWithFrame, target: target)
         
         self.displayMode = DisplayMode.list
@@ -145,7 +145,7 @@ class SplittingButton: UIButton {
         self.collums = collums
     }
     
-    required init?(coder aDecoder: NSCoder) {
+    required public init?(coder aDecoder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
     }
     
