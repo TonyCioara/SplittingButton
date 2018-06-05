@@ -16,7 +16,7 @@ Xcode 8.0 and above
 
 ## Installation
 
-SplittingButton is available through [CocoaPods](https://cocoapods.org). To install
+SplittingButton is available at https://cocoapods.org/pods/SplittingButton. To install
 it, simply add the following line to your Podfile:
 
 ```ruby
