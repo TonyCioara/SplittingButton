@@ -45,7 +45,7 @@ This will provide you with 3 options:
     When the button is clicked, it will display the underlying button in a line, originating from the main button.
     Pass in your View Controller as the target, create a CGRect to your liking a a frame, and pass in the direction in which you wish to display your buttons.
     
-3.```SplittingButton(animateInListWithFrame: CGRect, target: UIViewController, direction: Direction, collums: Int)```
+3. ```SplittingButton(animateInListWithFrame: CGRect, target: UIViewController, direction: Direction, collums: Int)```
     When the button is clicked, it will display the underlying button in a list.
     Pass in your View Controller as the target, create a CGRect to your liking a a frame, pass in the direction in which you wish to display your buttons, and an Int as the number of collums for your list.
     
